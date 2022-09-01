@@ -11,3 +11,26 @@ else
 {
 Console.WriteLine($"{num1} больше, чем {num2}");
 }
+
+
+Console.WriteLine("Введите целое число: ");
+int num = int.Parse(Console.ReadLine());
+
+if (num%2==0)
+{
+Console.WriteLine("ДА");    
+}
+else
+{
+Console.WriteLine("НЕТ");     
+}
+
+
+Console.WriteLine("Введите целое число: ");
+int num = int.Parse(Console.ReadLine());
+
+for (int i = 1; i<=num; i++)
+    if (i%2==0)
+    {
+    Console.WriteLine(i);
+    }
